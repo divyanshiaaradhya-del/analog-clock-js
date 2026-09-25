@@ -1,0 +1,45 @@
+  #clockcontainer {
+    /* Box ko bada size do */
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border: 2px solid red;
+
+    /* Exact file name with .webp extension */
+    background-image: url("https://clipart-library.com/images_k/clock-image-transparent-background/clock-image-transparent-background-11.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+}
+
+#hour, #minute, #second {
+    background-color: black;
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 49.2%;
+    opacity: 0.8;
+}
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 49.0%;
+    opacity: 0.8;
+   
+}
+#second {
+   width: 1%;
+   height: 32%;
+   top: 18%;
+   left: 49.5%;
+   opacity: 0.8;
+}
+
+
